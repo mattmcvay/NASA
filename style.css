@@ -1,0 +1,57 @@
+
+h1{
+    margin-left: 60px;
+    text-shadow: 2px 1px 5px gray;
+}
+
+#todaysPic{
+    margin-left: 60px;
+}
+
+#displayDate{
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 1px 5px gray;  
+}
+
+#content{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+#pic {
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-left: 30;
+    margin-right: 30;
+}
+
+.buttonStyle{
+    color: black;
+    background-color:darkgrey;
+    border-color: rgb(128, 0, 43);
+    border-width: 1.5px;
+    font-style: italic;
+    font-size: 15px;
+    padding: 5px 20px;
+    border-radius: 12px;
+    box-shadow: 0 1px 2px 0 gray, 0 6px 20px 0 gray;
+}
+
+.buttonStyle:hover{
+    background-color: mediumorchid;
+}
+
+
+
