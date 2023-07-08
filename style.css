@@ -39,8 +39,8 @@ h1{
 
 .buttonStyle{
     color: black;
-    background-color:darkgrey;
-    border-color: rgb(128, 0, 43);
+    background-color:lightgray;
+    border-color: rgb(128, 55, 0);
     border-width: 1.5px;
     font-style: italic;
     font-size: 15px;
@@ -50,7 +50,8 @@ h1{
 }
 
 .buttonStyle:hover{
-    background-color: mediumorchid;
+    background-color: rgb(245, 37, 37);
+    font-weight: bold;
 }
 
 
