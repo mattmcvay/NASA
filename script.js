@@ -65,7 +65,7 @@ async function sendApiRequest(selectedDate){
 
 // function that does something with the data received from the API.
 function useApiData(data, selectedDate){
-    document.querySelector("#displayDate").innerHTML = selectedDate;
+    document.querySelector("#displayDate").innerHTML = "Picture Date: " + selectedDate;
     document.querySelector("#title").innerHTML = data.title;
     document.querySelector("#content").innerHTML = data.explanation;
     if(data.media_type == 'image')

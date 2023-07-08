@@ -4,6 +4,10 @@ h1{
     text-shadow: 2px 1px 5px gray;
 }
 
+h4{
+    margin-left: 60px;
+}
+
 #todaysPic{
     margin-left: 60px;
 }
