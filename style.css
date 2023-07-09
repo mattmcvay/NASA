@@ -13,7 +13,7 @@ h4{
 }
 
 #displayDate{
-    margin-left: 60px;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -53,10 +53,37 @@ h4{
     box-shadow: 0 1px 2px 0 gray, 0 6px 20px 0 gray;
 }
 
-.buttonStyle:hover{
-    background-color: rgb(245, 37, 37);
+.buttonStyle:active{
+    background-color: rgb(95, 117, 134);
     font-weight: bold;
 }
 
 
+@media  (max-width: 760px) {
+    
+    #content{
+        display: none;
+    }
+      
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .videowrapper{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    h1{
+        text-align: center;
+        margin-left: auto;
+        text-shadow: 2px 1px 5px gray;
+    }
+    
+    h4{
+        text-align: center;
+        margin-left: auto;
+    }
+       
+  }
 

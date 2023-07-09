@@ -77,7 +77,7 @@ function useApiData(data, selectedDate){
     {       
         //document.querySelector('#pic').innerHTML = `<br /> Click on the following URL: <a href='${data.url}' target=" blank">${data.url}</a>`;
         // works width="420" height="345"
-        document.querySelector('#pic').innerHTML = `<iframe width="853" height="505" src="${data.url}">
+        document.querySelector('#pic').innerHTML = `<iframe width="853" height="505"  class="videowrapper" src="${data.url}">
         </iframe>`;
     }
     else
