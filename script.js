@@ -40,6 +40,22 @@ nextDaysPic.addEventListener('click', (e) => {
     document.getElementById('nextDaysPic').style.display= ''; 
 });
 
+// Toggle description
+function toggleDescriptionView() {
+    var b = document.getElementById('Description');
+    if(b.innerHTML === "Show Description")
+    {
+        b.innerHTML = "Hide Description";
+        document.getElementById('content').style.display = 'block';
+    }
+    else if(b.innerHTML === "Hide Description")
+    {
+        b.innerHTML = "Show Description"
+        document.getElementById('content').style.display = 'none';
+    }
+  }
+
+
 // An Async function to fetch dat from the API
 async function sendApiRequest(selectedDate){
     let API_KEY = "14jJHtSm5itokFDPHeXEsOPtjQdRsmV6VBaqd57u";
@@ -75,8 +91,6 @@ function useApiData(data, selectedDate){
     }
     else if(data.media_type == 'video')
     {       
-        //document.querySelector('#pic').innerHTML = `<br /> Click on the following URL: <a href='${data.url}' target=" blank">${data.url}</a>`;
-        // works width="420" height="345"
         document.querySelector('#pic').innerHTML = `<iframe width="853" height="505"  class="videowrapper" src="${data.url}">
         </iframe>`;
     }
