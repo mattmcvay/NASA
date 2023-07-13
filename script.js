@@ -46,7 +46,8 @@ function toggleDescriptionView() {
     if(b.innerHTML === "Show Description")
     {
         b.innerHTML = "Hide Description";
-        document.getElementById('content').style.display = 'block';
+        var content = document.getElementById('content');
+        content.style.display = 'block';
     }
     else if(b.innerHTML === "Hide Description")
     {
